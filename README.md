@@ -1,14 +1,11 @@
-# WPSE477 Force sensing resistor sensor module
+# The Whaddy Safe Gate
 
-This example shows how to measure the output of HC-SR05 ultrasonic distance sensor with an Arduino® compatible board.
-The example program prints the distance between the sensor and an object.
+This example is an automated garage door.
+The example program turns on a servo when the correct finger is placed on the fingerprint sensor and nothing is in front of the distance sensor.
 
 ## Library dependencies
-* None
+* Adafruit_Fingerprint.h
+* Servo.h
 
 ## Wiring diagram
 ![](./wiring_diagram_bb.png)
-
-## Additional information
-  For more information about the Whadda WPSE306 HC-SR05 ultrasonic distance sensor, check the manual available at [whadda.com](https://whadda.com)
-
