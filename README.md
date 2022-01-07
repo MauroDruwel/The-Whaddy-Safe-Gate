@@ -8,4 +8,4 @@ The example program rotates a servo when the correct finger is placed on the fin
 * Servo.h
 
 ## Wiring diagram
-![](./wiring_diagram_bb.png)
+![](./wiring_diagram.png)
